@@ -16,7 +16,7 @@
         <input type="text" class="form-control" id="phone" name="phone" placeholder="Digite o telefone" value="<?= $contact['phone'] ?>" required>
       </div>
       <div class="form-group">
-        <label for="observations">Observações:</label>
+        <label for="observations">Observações</label>
         <textarea type="text" class="form-control" id="observations" name="observations" placeholder="Insira as observações" rows="3"><?= $contact['observations'] ?></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Atualizar</button>
